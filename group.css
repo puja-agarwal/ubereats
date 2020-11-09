@@ -1,0 +1,366 @@
+.header-nav{
+    background-color:white;
+    width:100%;
+    height:90px;
+    top:0;
+    position: fixed;
+    z-index: 1;
+
+}
+body{
+    font-family: sans-serif;
+
+}
+.top-wrapper{
+    background-image: url("sweets/back12.jpg");
+    margin-top: 0px;
+    height: 650px;
+    background-size: cover;
+    color: black;
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: center;
+    position: relative;
+    padding-top: 400px;
+    
+
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+.head-image{
+    height:200px;
+}
+.header-left{
+    float:left;
+    margin-top: 28px;
+    margin-left: 3px;
+}
+.header-right{
+    float:right;
+    margin-top:28px;
+    margin-right:200px;
+    padding-right:60px
+        
+}
+
+.header-right a{
+    font-size: 21px;
+    color:black;
+    font-weight: 550;
+
+}
+.uber-logo{
+    height:25px;
+}
+   
+
+.header-left ul{
+    list-style: none;
+    
+}
+.header-left li{
+    float:left;
+    margin-left:60px
+
+}
+.ham .fa{
+    font-size: 29px;
+    font-weight: bold;
+    color:black
+
+    
+}
+
+
+
+.top-wrapper h1{
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 44px;
+    margin-bottom: 44px;
+    position: absolute;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+.loc{
+    font: inherit;
+    height: 45px;
+    width:500px ;
+    margin-top: 20px;  
+    color: inherit;
+    border-style: none;
+    background-color: rgb(248, 240, 230);
+    border-radius: 4px;
+    
+    position: absolute;
+    margin-left:40px;
+}
+.listings{
+    padding: 2rem 0;
+    
+    
+
+}
+ .container-listing{
+    width:calc(100%-120px);
+    margin-left: 30px;
+    margin-right: 5px;
+   
+
+    
+
+}
+
+
+
+.listing-head{
+    display: flex;
+}
+
+.head-viewoptions{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+
+}
+.head-viewoptions .ViewAll{
+    color:green;
+    padding-right:3rem ;
+}
+
+.viewMore .arrow{
+    width:40px;
+    height: 40px;
+    background: red;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: grey;
+    opacity: 0.3;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+
+}
+ .viewMore .dark{
+    opacity: 1;
+
+}
+.viewMore:hover{
+    opacity: 1;
+}
+.listing-head .head-title h2{
+
+    font-size: 2.2rem;
+    margin-bottom: 0.rem;
+    font-weight: bold;
+    margin-top: 0;
+    
+    
+
+    
+}
+.listing-head .head-title span{
+    color:rgb(84,84,84);
+    font-size: 22px;
+}
+
+.listings-grid{
+    display: flex;
+
+}
+.listings-grid .listings-grid-element .image{
+    height:260px;
+    overflow: hidden;
+
+}
+.listings-grid .listings-grid-element img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+
+}
+.listings-grid-element{
+    width:33%;
+    margin-top: 2rem;
+    padding-right: 20px;
+}
+.text{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.text h3{
+    font-weight:501;
+    margin-bottom: 0.3rem;
+
+}
+.text span{
+    font-size: 0.5rem;
+    font-weight: 400;
+    color:rgb(84,84,84) ;
+
+}
+
+.rating {
+    margin: auto 0 auto auto ;
+    height: 100%;
+}
+
+.rating span{
+    height:40px;
+    width: 40px;
+    background:rgb(218, 207, 207) ;
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+}
+
+.rating .circle{
+    width:40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background: rgb(218, 207, 207);
+    border-radius: 50%;
+    display: inline-flex;
+
+}
+
+.smallText{
+    font-size: 1.0rem;
+    font-weight: 380;
+
+}
+
+.text-lower{
+    padding:0.6rem 0 ;
+}
+
+
+.text-info{
+    font-size: 20px;
+}
+
+.text-info span{
+    font-size: 15px;
+    font-weight:10px;
+}
+
+.text-lower span{
+}
+
+.text-title{
+    font-weight: 50;
+}
+
+.jumbotron{
+    
+    
+}
+
+
+
+.adding a{
+    color:black;
+}
+
+.adding{
+    padding:2px;
+    padding-bottom: 5px;
+}
+
+li.list{
+    float: left;
+}
+
+.list{
+    float: left;
+}
+
+
+
+
+.footer{
+    height:450px;
+    margin-left:5px;
+    margin-right: 5px;
+    margin-top: 40px;
+    background: rgb(15, 15, 15);
+    
+    
+}
+.in-footer{
+    padding-top:30px;
+    height:400px;
+}
+
+span{
+    color:#06c167;
+    
+  }
+
+
+.footer-left{
+    float:left;
+    margin-top: 50px;
+    margin-left: 30px;
+    color:white;
+  }
+
+
+.footer-right{
+    float:right;
+    margin-top:20px;
+    padding: 50px 50px;
+    margin-right: 180px;
+    font-size: 20px;
+    color: white;
+    
+}    
+
+a.footer-right{
+    color:white;
+    padding-bottom: 80px;
+    
+}
+
+
+.gstoreL{
+    height:40px;
+    width:100px;
+    padding-bottom:5px;
+}
+
+.gstoreR{
+    height:30px;
+    width:100px;
+}
+
+.footer-img{
+    float: left;
+}
+
+.out-footer{
+    float:right;
+    margin-left:20px ;
+}
+
+.out-footer li{
+    float:left;
+    margin-right:80px;
+    padding-right:50px;
+}
+
+
+
+
